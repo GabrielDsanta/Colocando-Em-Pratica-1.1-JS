@@ -1,11 +1,42 @@
 
+// Exercicio 01//
 
-// const Numero = 5
+const ListaNumeros = [12,6,9,42,11,102,44,15]
 
-// console.log(Numero % 2 == 0 ? "É primo" : "Não é primo")
+let Resultado = 0
+
+// for(let index = 0; index < ListaNumeros.length; index++) {
+//      Resultado += ListaNumeros[index]
+// }
+
+// console.log(Resultado)
+
+// let index = 0
+
+// while(index <= 7){
+//     Resultado += ListaNumeros[index]
+//     index++
+// }
+
+// console.log(Resultado)
+
+// let index = 0
+// do{
+//     Resultado += ListaNumeros[index]
+//     index++
+// }while(index <= 7)
+
+// console.log(Resultado)
 
 
-let hora = 1
-let minutos = 0
 
-hora > 0 ? minutos = hora * 60 : minutos = 60
+
+// Exercicio 02//
+
+// for (let index = 0; index < ListaNumeros.length; index++){
+//     ListaNumeros[index] % 1 === 0 && ListaNumeros[index] % ListaNumeros[index] === 0 && ListaNumeros[index] % 2 !== 0 && ListaNumeros[index] % 3 !== 0  ? index = 10 : console.log(ListaNumeros[index])
+// }
+
+// for (let index = 0; index < ListaNumeros.length; index++) {
+//     ListaNumeros[index] < 40 ? console.log(ListaNumeros[index]) : ListaNumeros[index] > 50 && (console.log(ListaNumeros[index]))
+// }
